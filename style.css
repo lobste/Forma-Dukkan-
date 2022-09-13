@@ -5,6 +5,7 @@ body {
 #header {
     text-align: center;
     color: rgb(92, 62, 3);
+    
 }
 
 ul {
@@ -16,6 +17,8 @@ li {
      display: inline;
      margin: 20px;
      text-align: center;
+     font-size: 20px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #aciklama {
@@ -24,10 +27,45 @@ li {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-img { 
+#main-page { 
     width: 40%;
     height: auto;
     opacity: 0.4;
     position: relative;
     left: 30%;
   }
+
+ img {
+    width: 40%;
+ }
+
+ figure {
+        width: 30%;
+        text-align: center;
+        font-style: italic;
+        font-size: 20px;
+        text-indent: 0;
+        border: thin silver solid;
+        margin: 1% 35%;
+        }
+  
+  
+  figcaption {
+    background-color: rgb(121, 63, 63);
+    color: white;
+    font-style: italic;
+    padding: 1% 1%;
+    text-align: center;
+    }
+
+ #header {
+    text-align: center;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+ .hakkimizda {
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+ }
