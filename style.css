@@ -37,6 +37,8 @@ li {
 
  img {
     width: 40%;
+    margin-top: 5px;
+    margin-bottom: 5px;
  }
 
  figure {
@@ -68,4 +70,13 @@ li {
     font-size: larger;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
+ }
+
+ button {
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+    background-color: white;
+    color: rgb(121, 63, 63);
+    margin: 5px;
  }
